@@ -67,3 +67,11 @@ echo_red "Beginning Ruby installation"
 sh ./installations/ruby-install.sh
 echo_green "Done with Ruby installation"
 printf_new "#" 50
+
+#######################################
+# GNU utils installation              #
+#######################################
+echo_red "Beginning GNU utilities installation"
+sh ./installations/gnu-utils-install.sh
+echo_green "Done with GNU utilities installation"
+printf_new "#" 50
