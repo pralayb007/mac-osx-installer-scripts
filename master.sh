@@ -5,7 +5,7 @@ source ./utilities/printf_utils.sh
 echo_green "Install starting. You may be asked for your password (for sudo)."
 printf_new "#" 50
 ########################################
-## Require Xcode installation          #
+#  Require Xcode installation          #
 ########################################
 echo_red "Beginning XCode installation"
 sh ./setup/xcode-install.sh
@@ -93,4 +93,12 @@ sh ./installations/mac-utils-install.sh
 echo_yellow "Now starting with installations from Dropbox DMGs"
 sh ./dropbox/dropbox-mac-utils-install.sh
 echo_green "Done with media libraries and utilities installation"
+printf_new "#" 50
+
+#######################################
+# Compression utilities installation  #
+#######################################
+echo_red "Beginning compression utilities installation"
+sh ./installations/compression-utils-install.sh
+echo_green "Done with compression utilities installation"
 printf_new "#" 50
