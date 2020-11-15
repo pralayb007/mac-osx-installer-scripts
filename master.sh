@@ -102,3 +102,11 @@ echo_red "Beginning compression utilities installation"
 sh ./installations/compression-utils-install.sh
 echo_green "Done with compression utilities installation"
 printf_new "#" 50
+
+#######################################
+# Browser installations               #
+#######################################
+echo_red "Beginning browser installations"
+sh ./installations/browsers-install.sh
+echo_green "Done with browser installations"
+printf_new "#" 50
