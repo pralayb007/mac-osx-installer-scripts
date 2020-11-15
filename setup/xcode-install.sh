@@ -4,7 +4,7 @@ source ./utilities/echo_utils.sh
 #######################################
 # Require Xcode installation          #
 #######################################
-echo_yellow "In order to install Xcode, log into App Store using your appleId"
+echo_yellow "Log into App Store using your appleId and install XCode"
 echo_yellow "Press any key once done"
 read -r varname
 
