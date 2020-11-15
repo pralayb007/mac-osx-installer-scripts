@@ -19,3 +19,11 @@ echo_red "Beginning Homebrew installation"
 sh ./setup/homebrew-install.sh
 echo_green "Done with Homebrew setup"
 printf_new "#" 50
+
+#######################################
+# Appstore login and commandline      #
+#######################################
+echo_red "Beginning Appstore CLI installation"
+sh ./setup/appstore-login.sh
+echo_green "Done Appstore login and CLI setup"
+printf_new "#" 50
