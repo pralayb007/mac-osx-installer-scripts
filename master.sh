@@ -126,3 +126,11 @@ echo_red "Beginning with Alfred and Keyboard Maestro installations"
 sh ./installations/automation-utils-install.sh
 echo_green "Done with Mac automation utilities installations"
 printf_new "#" 50
+
+#######################################
+# Mac diagramming tools               #
+#######################################
+echo_red "Beginning with Mac diagramming software installations"
+sh ./installations/diagram-utils-install.sh
+echo_green "Done with Mac diagramming software installations"
+printf_new "#" 50
