@@ -51,3 +51,11 @@ echo_red "Beginning font installation"
 sh ./installations/fonts-install.sh
 echo_green "Done with fonts installation"
 printf_new "#" 50
+
+#######################################
+# Python installation                 #
+#######################################
+echo_red "Beginning Python installation"
+sh ./installations/python-install.sh
+echo_green "Done with Python installation"
+printf_new "#" 50
