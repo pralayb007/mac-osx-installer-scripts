@@ -59,3 +59,11 @@ echo_red "Beginning Python installation"
 sh ./installations/python-install.sh
 echo_green "Done with Python installation"
 printf_new "#" 50
+
+#######################################
+# Ruby installation                 #
+#######################################
+echo_red "Beginning Ruby installation"
+sh ./installations/ruby-install.sh
+echo_green "Done with Ruby installation"
+printf_new "#" 50
