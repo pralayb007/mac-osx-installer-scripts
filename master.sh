@@ -110,3 +110,11 @@ echo_red "Beginning browser installations"
 sh ./installations/browsers-install.sh
 echo_green "Done with browser installations"
 printf_new "#" 50
+
+#######################################
+# IDE and code editor installations   #
+#######################################
+echo_red "Beginning IDE installations"
+sh ./installations/code-editors-install.sh
+echo_green "Done with IDE and code editor installations"
+printf_new "#" 50
