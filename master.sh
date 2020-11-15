@@ -118,3 +118,11 @@ echo_red "Beginning IDE installations"
 sh ./installations/code-editors-install.sh
 echo_green "Done with IDE and code editor installations"
 printf_new "#" 50
+
+#######################################
+# Mac automation tools                #
+#######################################
+echo_red "Beginning with Alfred and Keyboard Maestro installations"
+sh ./installations/automation-utils-install.sh
+echo_green "Done with Mac automation utilities installations"
+printf_new "#" 50
