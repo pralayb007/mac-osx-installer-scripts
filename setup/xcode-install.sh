@@ -8,8 +8,6 @@ echo_yellow "In order to install Xcode, log into App Store using your appleId"
 echo_yellow "Press any key once done"
 read -r varname
 
-xcode-select --install
-
 if xcode-select -p | grep -q 'CommandLineTools\|Xcode.app'; then
   echo_green "XCode was installed"
 else
