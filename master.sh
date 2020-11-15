@@ -75,3 +75,11 @@ echo_red "Beginning GNU utilities installation"
 sh ./installations/gnu-utils-install.sh
 echo_green "Done with GNU utilities installation"
 printf_new "#" 50
+
+#######################################
+# Media libs and players installation #
+#######################################
+echo_red "Beginning media libraries and utilities installation"
+sh ./installations/media-utils-install.sh
+echo_green "Done with media libraries and utilities installation"
+printf_new "#" 50
