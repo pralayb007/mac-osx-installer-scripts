@@ -35,3 +35,11 @@ echo_red "Beginning XQuartz installation"
 sh ./installations/xquartz-install.sh
 echo_green "Done XQuartz installation"
 printf_new "#" 50
+
+#######################################
+# Fonts installation                  #
+#######################################
+echo_red "Beginning font installation"
+sh ./installations/fonts-install.sh
+echo_green "Done with fonts installation"
+printf_new "#" 50
