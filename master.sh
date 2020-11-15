@@ -37,6 +37,14 @@ echo_green "Done XQuartz installation"
 printf_new "#" 50
 
 #######################################
+# Commandline utilities               #
+#######################################
+echo_red "Beginning commandline utilities installation"
+sh ./installations/terminal-utils.sh
+echo_green "Done with terminal utils installation"
+printf_new "#" 50
+
+#######################################
 # Fonts installation                  #
 #######################################
 echo_red "Beginning font installation"
