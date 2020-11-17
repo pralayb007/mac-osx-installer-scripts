@@ -8,3 +8,19 @@ brew install gnu-sed
 brew install grep
 brew install perl         # Not really GNU but still
 brew install awk          # Not really GNU but still
+
+# Install GNU core utilities (those that come with macOS are outdated)
+brew install coreutils
+
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
+brew install findutils
+
+# Install a modern version of Bash.
+brew install bash
+brew install bash-completion2
+
+# Install more recent versions of some macOS tools.
+brew install openssh
+brew install screen
+brew install php
+brew install gmp
