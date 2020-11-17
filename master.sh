@@ -151,8 +151,18 @@ printf_new "#" 50
 echo_red "Beginning Mac task management software installations"
 sh ./installations/task-managers-install.sh
 echo_yellow "Now starting with installations from Dropbox DMGs"
-sh ./installations/dropbox-task-managers-install.sh
+sh ./dropbox/dropbox-task-managers-install.sh
 echo_green "Done with Mac task management software installations"
+printf_new "#" 50
+
+#######################################
+# Mac note takers and archivers       #
+#######################################
+echo_red "Beginning Mac note takers and archiver installations"
+sh ./installations/note-takers-archiver-install.sh
+echo_yellow "Now starting with installations from Dropbox DMGs"
+sh ./dropbox/dropbox-note-takers-archiver-install.sh
+echo_green "Done with Mac note takers and archiver installations"
 printf_new "#" 50
 
 #######################################
