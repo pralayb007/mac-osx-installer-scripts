@@ -12,7 +12,14 @@ else
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew update && brew cleanup
+# Make sure we’re using the latest Homebrew.
+brew update
+
+# Remove outdated versions from the cellar.
+brew cleanup
+
+# Upgrade any already-installed formulae.
+brew upgrade
 
 # Tapping into various brews
 brew tap homebrew/cask
