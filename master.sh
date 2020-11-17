@@ -154,3 +154,12 @@ echo_yellow "Now starting with installations from Dropbox DMGs"
 sh ./installations/dropbox-task-managers-install.sh
 echo_green "Done with Mac task management software installations"
 printf_new "#" 50
+
+#######################################
+# Clean up and exit                   #
+#######################################
+echo_green "All done...cleaning up"
+brew cleanup
+echo_green "Press any key to exit"
+read -r varname
+exit
