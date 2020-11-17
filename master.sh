@@ -23,6 +23,14 @@ echo_green "Done with Homebrew setup"
 printf_new "#" 50
 
 #######################################
+# iTerm installation and switching    #
+#######################################
+echo_red "Beginning iTerm installation"
+sh ./installations/iterm2-install.sh
+echo_green "Done with iTerm installation"
+printf_new "#" 50
+
+#######################################
 # Appstore login and commandline      #
 #######################################
 echo_red "Beginning Appstore CLI installation"
