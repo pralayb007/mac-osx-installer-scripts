@@ -130,6 +130,16 @@ echo_green "Done with IDE and code editor installations"
 printf_new "#" 50
 
 #######################################
+# Mac dev tools installations         #
+#######################################
+echo_red "Beginning Mac dev tools installations"
+sh ./installations/dev-tools-install.sh
+echo_yellow "Now starting with installations from Dropbox DMGs"
+sh ./dropbox/dropbox-dev-tools-install.sh
+echo_green "Done with Mac dev tools installations"
+printf_new "#" 50
+
+#######################################
 # Mac automation tools                #
 #######################################
 echo_red "Beginning with Alfred and Keyboard Maestro installations"
