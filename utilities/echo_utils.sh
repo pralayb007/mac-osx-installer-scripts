@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source ./utilities/color_utils.sh
+source ../utilities/color_utils.sh
 
 # Echo helper utils
 # show text in green

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source ./utilities/echo_utils.sh
+source ../utilities/echo_utils.sh
 
 brew install tree     # tree util, https://formulae.brew.sh/formula/tree#default
 brew install jq       # commandline JSON parser util

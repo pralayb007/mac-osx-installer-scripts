@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source ./utilities/echo_utils.sh
+source ../utilities/echo_utils.sh
 
 ###################
 # App store login #

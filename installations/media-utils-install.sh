@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source ./utilities/echo_utils.sh
+source ../utilities/echo_utils.sh
 
 # Media libraries and players
 brew install ffmpeg # Play, record, convert, and stream audio and video
