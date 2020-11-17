@@ -3,6 +3,8 @@ source ./utilities/echo_utils.sh
 source ./utilities/printf_utils.sh
 
 echo_green "Install starting. You may be asked for your password (for sudo)."
+# Ask for sudo password upfront
+sudo -v
 printf_new "#" 50
 ########################################
 #  Require Xcode installation          #
