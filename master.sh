@@ -6,6 +6,15 @@ echo_green "Install starting. You may be asked for your password (for sudo)."
 # Ask for sudo password upfront
 sudo -v
 printf_new "#" 50
+
+########################################
+#  Set sensible machine configurations #
+########################################
+echo_red "Setting up some default machine configurations"
+sh ./configurations/mac-defaults-configurations.sh
+echo_green "Done setting machine configurations"
+printf_new "#" 50
+
 ########################################
 #  Require Xcode installation          #
 ########################################
