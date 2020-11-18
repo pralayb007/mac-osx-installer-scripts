@@ -4,6 +4,12 @@ source ../utilities/echo_utils.sh
 app='Google Chrome'
 alias install=open -a "$app"
 
+# Open Chrome
+open -a "$app"
+
+# Wait for 10 secs so that all the remaining URLs open as tabs instead of new windows
+sleep 10
+
 # Evernote web clipper
 install "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc"
 
