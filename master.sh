@@ -131,6 +131,14 @@ echo_green "Done with browser installations"
 printf_new "#" 50
 
 #######################################
+# Chrome extensions installation      #
+#######################################
+echo_red "Beginning chrome extensions installations"
+sh ./extensions/chrome-extensions-install.sh
+echo_green "Done with chrome extensions installations"
+printf_new "#" 50
+
+#######################################
 # IDE and code editor installations   #
 #######################################
 echo_red "Beginning IDE installations"
