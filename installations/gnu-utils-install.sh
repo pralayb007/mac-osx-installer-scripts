@@ -8,6 +8,7 @@ brew install gnu-sed
 brew install grep
 brew install perl         # Not really GNU but still
 brew install awk          # Not really GNU but still
+brew install libarchive
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew install coreutils

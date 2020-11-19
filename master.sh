@@ -47,6 +47,14 @@ echo_green "Done with Homebrew setup"
 printf_repeat "#" 50
 
 #######################################
+# GNU utils installation              #
+#######################################
+echo_red "Beginning GNU utilities installation"
+sh $BASE_DIR/installations/gnu-utils-install.sh
+echo_green "Done with GNU utilities installation"
+printf_repeat "#" 50
+
+#######################################
 # iTerm installation and switching    #
 #######################################
 echo_red "Beginning iTerm installation"
@@ -100,14 +108,6 @@ printf_repeat "#" 50
 echo_red "Beginning Ruby installation"
 sh $BASE_DIR/installations/ruby-install.sh
 echo_green "Done with Ruby installation"
-printf_repeat "#" 50
-
-#######################################
-# GNU utils installation              #
-#######################################
-echo_red "Beginning GNU utilities installation"
-sh $BASE_DIR/installations/gnu-utils-install.sh
-echo_green "Done with GNU utilities installation"
 printf_repeat "#" 50
 
 #######################################
