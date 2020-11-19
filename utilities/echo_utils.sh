@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-source ../utilities/color_utils.sh
+# Echo helper utils
+red='\033[1;31m'; green='\033[1;32m'; yellow='\033[1;33m'; color_off='\033[0m'
 
 # Echo helper utils
 # show text in green
